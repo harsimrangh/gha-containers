@@ -20,7 +20,7 @@ jobs:
       PORT: 8080
     services:
       mongodb:
-        image: mongodb:7
+        image: mongo:7
         ports:
           - 27017:27017
         env: 
