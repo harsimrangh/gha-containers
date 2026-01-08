@@ -21,7 +21,6 @@ jobs:
     services:
       mongodb:
         image: mongodb:7
-        container_name: mongo-db
         ports:
           - 27017:27017
         env: 
